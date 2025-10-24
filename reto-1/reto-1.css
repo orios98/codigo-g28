@@ -1,9 +1,3 @@
-/* reset
-
-Por defecto el navegador tiene estilos
-Debemos elminar los estilos del navegador */
-
-/* * = TODO */
 * {
   margin: 0;
   padding: 0;
@@ -17,11 +11,10 @@ body {
 
 main {
   display: flex;
-  /* modificamos la altura del main */
+
   height: 100vh;
-  /* alinear el container horizontalmente */
+
   justify-content: center;
-  /* alinear el container verticalmente */
   align-items: center;
 }
 
@@ -36,7 +29,7 @@ main {
 .second-container {
   display: flex;
   flex-direction: column;
-  /* permite colocar un espacio entre elementos */
+
   gap: 20px;
 }
 
@@ -46,6 +39,7 @@ img {
 
 h1 {
   font-size: 24px;
+  font-family: Tecsup, Codigo, sans-serif;
 }
 
 button {
@@ -79,6 +73,5 @@ p {
 }
 
 .author > span {
-  font-size: 14px;
-  font-weight: bold;
+  color: red;
 }

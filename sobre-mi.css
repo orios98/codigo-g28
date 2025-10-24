@@ -1,6 +1,7 @@
 body {
-background-color: rgb(140, 68, 19);
+  background-color: #38f29b;
 }
+
 /* SELECTORES */
 /*
 Es la forma en la que buscamos elementos de HTML
@@ -21,3 +22,7 @@ selector por class
   border-radius: 50%;
 }
 
+.img-square {
+  width: 200px;
+  height: 200px;
+}
