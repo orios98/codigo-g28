@@ -1,5 +1,6 @@
-const comentarios = [
+let comentarios = [
   {
+    id: 1,
     username: "elvis",
     commentDate: "1 month ago",
     avatar: "./images/avatars/image-amyrobson.png",
@@ -12,9 +13,10 @@ const comentarios = [
     },
     decrementar: function () {
       this.upvotes--;
-    }
+    },
   },
   {
+    id: 2,
     username: "maxblagun",
     commentDate: "2 weeks ago",
     avatar: "./images/avatars/image-maxblagun.png",
@@ -26,6 +28,6 @@ const comentarios = [
     },
     decrementar: function () {
       this.upvotes--;
-    }
+    },
   },
 ];
